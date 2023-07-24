@@ -26,7 +26,15 @@ jobs:
         mv decode_tvbox.txt ../result/
         cd ..
         date > run_time.txt
-        cp run_time.txt ./result/
-        git add run_time.txt ./result/run_time.txt ./result/decode_tvbox.txt
-        git commit -m "auto update"
         
+    - name: Upload decode_tvbox.txt
+      uses: actions/upload-artifact@v3
+      with:
+        name: decode_tvbox.txt
+        path: result/decode_tvbox.txt
+        
+    - name: Upload run_time.txt
+      uses: actions/upload-artifact@v3
+      with:
+        name: run_time
+        path: run_time.txt
