@@ -3,7 +3,9 @@
 
 name: decode_tvbox
 
-on: [push]
+on:
+  schedule:
+  - cron: "0 20 * * *"
 
 permissions:
   contents: read
