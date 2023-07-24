@@ -14,11 +14,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.DECODE_TVBOX_TOKEN }}
+
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
         python-version: "3.10"
+
     - name: run my .py
       run: |
         cd ./py
@@ -27,14 +32,10 @@ jobs:
         cd ..
         date > run_time.txt
         
-    - name: Upload decode_tvbox.txt
-      uses: actions/upload-artifact@v3
-      with:
-        name: decode_tvbox.txt
-        path: result/decode_tvbox.txt
-        
-    - name: Upload run_time.txt
-      uses: actions/upload-artifact@v3
-      with:
-        name: run_time
-        path: run_time.txt
+    - name: Upload file
+      run: |
+        git config --global user.email "gsp1004@qq.com"
+        git config --global user.name "gsp"
+        git add run_time.txt ./result/decode_tvbox.txt
+        git commit -m "auto update"
+        git push
