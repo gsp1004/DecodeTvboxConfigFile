@@ -21,12 +21,12 @@ jobs:
         python-version: "3.10"
     - name: run my .py
       run: |
-        cd py
+        cd ./py
         python decode_tvbox.py
-        mv decode_tvbox.txt ../res
+        mv decode_tvbox.txt ../result/
         cd ..
         date > run_time.txt
-        cp run_time.txt ./res
-        git add run_time.txt ./res/run_time.txt ./res/decode_tvbox.txt
+        cp run_time.txt ./result/
+        git add run_time.txt ./result/run_time.txt ./result/decode_tvbox.txt
         git commit -m "auto update"
         
