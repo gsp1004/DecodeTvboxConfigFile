@@ -1,5 +1,5 @@
 {
-    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;666ca7d5468412592cd65e5a22376dc6",
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;18b8df1e0f7813098c1e70979a264aad",
     "wallpaper": "https://agit.ai/cacifer/xyz/raw/branch/master/wallpaper.png",
 	"lives": [
         {
@@ -157,6 +157,7 @@
 			"searchable": 0,
 			"quickSearch": 0,
 			"filterable": 0,
+			"changeable": 0,
 			"ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/企鹅直播.json"
 		},
         {
@@ -289,6 +290,17 @@
 			"quickSearch": 0,
 			"filterable": 1
 		},
+    {
+            "key": "网易公版影像",
+            "name": "📺网易公版影像",
+            "type": 3,
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/网易公版影像.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+			"changeable": 0
+        },
 		{
 			"key": "MV_vod",
 			"name": "🎸明星MV",
@@ -299,6 +311,17 @@
 			"filterable": 1,
 			"changeable": 0
 		},
+    {
+            "key": "播客",
+            "name": "🎧播客聚合",
+            "type": 3,
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/播客.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+			"changeable": 0
+        },
 		{
             "key": "有声小说js",
             "name": "🎧有声小说",
@@ -307,7 +330,19 @@
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/有声小说吧.js",
             "searchable": 0,
             "quickSearch": 0,
-            "filterable": 1
+            "filterable": 1,
+			"changeable": 0
+        },
+        {
+            "key": "有声绘本",
+            "name": "🎧有声绘本",
+            "type": 3,
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/有声绘本网.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+			"changeable": 0
         },
         {
             "key": "drpy_js_喜马拉雅",
@@ -317,13 +352,14 @@
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/喜马拉雅.js",
             "searchable": 0,
             "quickSearch": 0,
-            "filterable": 1
+            "filterable": 1,
+			"changeable": 0
         },
 		{
-            "key": "csp_77",
+            "key": "琨娱七七[cat]",
             "name": "🔍搜索源1",
             "type": 3,
-            "api": "csp_Kunyu77",
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/kunyu77_open.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -341,20 +377,20 @@
 			"changeable": 1
 		},
 		{
-            "key": "csp_Czsapp",
+            "key": "厂长资源[cat]",
             "name": "🔍搜索源3",
             "type": 3,
-            "api": "csp_Czsapp",
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/czzy_open.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
 			"changeable": 1
         },
 		{
-			"key": "探探",
+			"key": "快看影视[cat]",
 			"name": "🔍搜索源4",
 			"type": 3,
-			"api": "csp_YT",
+			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/kkys_open.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -371,20 +407,15 @@
 			"api": "csp_MmYs"
 		},
 		{
-		   "key": "量子资源",
+		   "key": "荐片",
 		   "name": "🔍搜索源6",
-		   "type": 1,
-		   "api": "http://cj.lziapi.com/api.php/provide/vod/",
-		   "playUrl": "",
+		   "type": 3,
+		   "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
 		   "searchable": 1,
 		   "quickSearch": 1,
-		   "categories": [
-			"国产剧","国产动漫",
-			"泰国剧",
-			"台湾剧",
-			"香港剧",
-			"欧美剧", "韩国剧", "日本剧", "动漫", "体育", "剧情片", "动作片", "爱情片", "喜剧片"
-		   ]
+       "filterable":1,
+			"changeable": 1,
+		   "ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/荐片.js"
 		},
 		{
 			"key":"csp_YQKAPP",
@@ -398,10 +429,10 @@
 			"ext":"https://api-aws.11ty.top"	
 		},
 		{
-            "key": "搜索源2",
+            "key": "爱看聚搜",
             "name": "🔍搜索源8",
             "type": 3,
-            "api": "csp_Kuaikan",
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/lf_ikanbot3_1_min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -418,46 +449,48 @@
 			"changeable": 1
 		},
 		{
-            "key": "csp_zxzj",
+            "key": "蘑菇影视",
             "name": "🔍搜索源10",
             "type": 3,
-            "api": "csp_Zxzj",
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
 			"changeable": 1,
-            "ext": "https://www.zxzj.pro/"
+            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/蘑菇.js"
         },
 		{
-			"key": "csp_Cokemv",
+			"key": "爱看影视",
 			"name": "🔍搜索源11",
 			"type": 3,
-			"api": "csp_Cokemv",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"changeable": 1
-		},
-		 {
-			"key": "csp_Nmys",
-			"name": "🔍搜索源12",
-			"type": 3,
-			"api": "csp_Nmys",
+			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"changeable": 1,
-			"ext": "http://饭太硬.top/x/json/nmys.json"
+      "ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/爱看.js"
 		},
-		{
-			"key": "csp_Vofl",
-			"name": "🔍搜索源13",
+		 {
+			"key": "农民影视",
+			"name": "🔍搜索源12",
 			"type": 3,
-			"api": "csp_Voflix",
+			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"changeable": 1
+			"changeable": 1,
+			"ext": "https://agit.ai/cacifer/xyz/raw/master/JS/农民影视.js"
+		},
+		{
+			"key": "Voflix",
+			"name": "🔍搜索源13",
+			"type": 3,
+			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+      "ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/Voflix.js"
 		},
 		{
 			"key": "csp_Dy1010",
@@ -576,12 +609,7 @@
       "url": "Web"
     },
     {
-      "name": "【影视范】提供",
-      "type": 1,
-      "url": "http://1.117.111.78:93/home/api?type=ys&uid=230629&key=公众号【影视范】&url="
-    },
-    {
-      "name": "刚佬",
+      "name": "解析01",
       "type": 1,
       "url": "http://json.g9.pub:66/?url=",
       "ext": {
@@ -611,7 +639,7 @@
       }
     },
     {
-      "name": "全部",
+      "name": "解析02",
       "type": 0,
       "url": "https://yun.ckmov.com/?url=",
       "ext": {
@@ -641,7 +669,7 @@
       }
     },
     {
-      "name": "来自",
+      "name": "解析03",
       "type": 0,
       "url": "https://jx.zhanlangbu.com/?url=",
       "ext": {
@@ -669,7 +697,7 @@
       }
     },
     {
-      "name": "网络",
+      "name": "解析04",
       "type": 1,
       "url": "https://api.cygc.xyz/analysis/?url=",
       "ext": {
@@ -697,7 +725,7 @@
       }
     },
     {
-      "name": "大家",
+      "name": "解析05",
       "type": 0,
       "url": "https://jx.xmflv.com/?url=",
       "ext": {
@@ -727,12 +755,12 @@
       }
     },
     {
-      "name": "随便用",
+      "name": "解析06",
       "type": 1,
       "url": "https://jx.ccabc.cc/xc/?key=5567332json&url="
     },
     {
-      "name": "坏了",
+      "name": "解析07",
       "type": 0,
       "url": "http://27.124.4.42:4567/jhjson/ceshi.php?url=",
       "ext": {
@@ -762,7 +790,7 @@
       }
     },
     {
-      "name": "我再找来",
+      "name": "解析08",
       "type": 1,
       "url": "https://b.umkan.cc/API.php?url=",
       "ext": {
