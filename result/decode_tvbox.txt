@@ -13,7 +13,7 @@
         {
             "name": "饭太硬直播源", 
             "type": 0, 
-            "url": "http://ftyyy.tk/live.txt", 
+            "url": "https://ghproxy.com/raw.githubusercontent.com/dxawi/0/main/tvlive.txt", 
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}", 
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
@@ -38,6 +38,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/hao/raw/branch/master/戏曲大全.js"
         },
         {
@@ -49,6 +50,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/hao/raw/branch/master/相声小品.js"
         },
         {
@@ -59,6 +61,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
+            "style":{"type":"list"},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/cctv.py"
         },
         {
@@ -70,6 +73,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/hao/raw/branch/master/纪录片.js"
         },
         {
@@ -81,6 +85,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/书法国画.json"
         },
         {
@@ -92,6 +97,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/园艺栽培.json"
         },
         {
@@ -103,6 +109,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/吹拉弹唱.json"
         },
         {
@@ -114,6 +121,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/奇巧手工.json"
         },
         {
@@ -125,6 +133,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/自学教程.json"
         },
         {
@@ -136,6 +145,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/舞蹈健身.json"
         },
         {
@@ -147,6 +157,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/棋牌合集.json"
         },
 		{
@@ -158,6 +169,7 @@
 			"quickSearch": 0,
 			"filterable": 0,
 			"changeable": 0,
+      "style":{"type":"list","ratio":1.597},
 			"ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/企鹅直播.json"
 		},
         {
@@ -169,6 +181,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/音乐鉴赏.json"
         },
         {
@@ -179,7 +192,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-			"changeable": 0,
+		       	"changeable": 0,
+             "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/影视解说.json"
         },
         {
@@ -191,6 +205,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/美食秘笈.json"
         },
         {
@@ -202,6 +217,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/健康生活.json"
         },
         {
@@ -213,6 +229,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/安全防骗.json"
         },
         {
@@ -224,6 +241,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/心理健康.json"
         },
         {
@@ -234,7 +252,8 @@
 			"ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/童趣.js",
 			"searchable": 0,
 			"quickSearch": 0,
-			"filterable": 1
+			"filterable": 1,
+      "style":{"type":"rect","ratio":1.597}
 		},
         {
             "key": "幼儿乐园",
@@ -245,6 +264,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/幼儿乐园.json"
         },
         {
@@ -256,6 +276,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/小学课堂.json"
         },
         {
@@ -267,6 +288,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/初中课堂.json"
         },
         {
@@ -278,6 +300,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
+            "style":{"type":"rect","ratio":1.597},
             "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/高中课堂.json"
         },
         {
@@ -288,7 +311,8 @@
 			"ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/JustLive.js",
 			"searchable": 0,
 			"quickSearch": 0,
-			"filterable": 1
+			"filterable": 1,
+      "style":{"type":"rect","ratio":1.597}
 		},
     {
             "key": "网易公版影像",
@@ -309,7 +333,8 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"changeable": 0
+			"changeable": 0,
+      "style":{"type":"oval"}
 		},
     {
             "key": "播客",
@@ -320,7 +345,8 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-			"changeable": 0
+			      "changeable": 0,
+            "style":{"type":"list"}
         },
 		{
             "key": "有声小说js",
@@ -331,7 +357,8 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-			"changeable": 0
+			"changeable": 0,
+            "style":{"type":"list"}
         },
         {
             "key": "有声绘本",
@@ -342,7 +369,8 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-			"changeable": 0
+			"changeable": 0,
+            "style":{"type":"list"}
         },
         {
             "key": "drpy_js_喜马拉雅",
@@ -353,7 +381,8 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-			"changeable": 0
+			"changeable": 0,
+            "style":{"type":"list"}
         },
 		{
             "key": "琨娱七七[cat]",
@@ -397,14 +426,15 @@
 			"changeable": 1
 		},
 		{
-			"key": "陌陌",
+			"key": "大豆",
 			"name": "🔍搜索源5",
 			"type": 3,
 			"searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
 			"changeable": 1,
-			"api": "csp_MmYs"
+			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+      "ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/大豆.js"
 		},
 		{
 		   "key": "荐片",
