@@ -70,16 +70,16 @@ def main():
     # 2. 获取文件内容，提取**后面的base64加密内容，将其解密，存为txt
     # 2.1 获取文件内容，然后删除临时图片文件
     with open(img_filename, "rb") as f:
-        con = str(f.read())
+        con = f.read().decode("ascii", "ignore")
     if not test:
         os.remove(img_filename)
 
     # 2.2 提取**后面的base64加密内容
-    ret = re.search(r"\*\*.*", str(con))
+    ret = re.findall(r"\*\*.*=", str(con))
     if ret:
         with open(decode_filename, "wb") as f_de:
             # 2.3 将其解密，存为txt
-            f_de.write(base64.b64decode(ret.group()[2:]))
+            f_de.write(base64.b64decode(ret[-1][2:]))
 
         # 3. 检查json文件格式是否合法。本次错误缺少逗号分隔符，处理好了
         json_check(decode_filename)
