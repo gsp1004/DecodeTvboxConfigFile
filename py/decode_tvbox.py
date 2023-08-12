@@ -50,20 +50,29 @@ def json_check(decode_file: str):
 
 
 # config here
-img_filename = str(datetime.date.today()) + '_o.bmp'
+# 是否测试模式，测试模式就是本地测试，不从网络下文件，而是使用本地文件，
+test = False
+# test = True
+if test:
+    img_filename = 'o.bmp'
+else:
+    img_filename = str(datetime.date.today()) + '_o.bmp'
+
 decode_filename = "decode_tvbox.txt"
 url = 'https://gitee.com/haitang123/abc/raw/master/o.bmp'
 
 
 def main():
     # 1. 从url下载文件，存为img_filename
-    urllib.request.urlretrieve(url, img_filename)
+    if not test:
+        urllib.request.urlretrieve(url, img_filename)
 
     # 2. 获取文件内容，提取**后面的base64加密内容，将其解密，存为txt
     # 2.1 获取文件内容，然后删除临时图片文件
     with open(img_filename, "rb") as f:
         con = str(f.read())
-    os.remove(img_filename)
+    if not test:
+        os.remove(img_filename)
 
     # 2.2 提取**后面的base64加密内容
     ret = re.search(r"\*\*.*", str(con))
