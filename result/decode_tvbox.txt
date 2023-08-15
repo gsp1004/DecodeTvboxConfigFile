@@ -54,15 +54,14 @@
         {
             "key": "央视节目",
             "name": "🌏央视节目",
+            "api":"py_cctv",
             "type": 3,
-            "api": "csp_CCTV",
             "searchable": 0,
-            "quickSearch": 0,
+            "quickSearch": 1,
             "filterable": 1,
-			"changeable": 0,
+            "changeable": 0,
             "style":{"type":"list"},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/cctv.json",
-            "jar":"https://agit.ai/cacifer/xyz/raw/branch/master/jar/ymz.jar;md5;66A1A17B669AD9201EEBF19EA05EC661"
+            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/央视片库.py"
         },
         {
             "key": "纪录片",
