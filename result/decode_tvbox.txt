@@ -1,5 +1,5 @@
 {
-    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;c548a4b3ea3f603ca651b802c52816a8",
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;b3a5a49c793dd82c3fd04e75d3071b20",
     "wallpaper": "https://agit.ai/cacifer/xyz/raw/branch/master/wallpaper.png",
 	"lives": [
         {
@@ -329,18 +329,6 @@
 			"changeable": 0,
 			"style":{"type":"oval"}
 		},
-    {
-            "key": "播客",
-            "name": "🎧播客聚合",
-            "type": 3,
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/播客.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-			"changeable": 0,
-            "style":{"type":"list"}
-        },
 		{
             "key": "有声小说js",
             "name": "🎧有声小说",
@@ -388,20 +376,20 @@
 			"changeable": 1
         },
 		{
-            "key": "厂长资源",
-            "name": "🔍搜索源2",
-            "type": 3,
-            "api": "csp_Czsapp",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-			"changeable": 1
-        },
-		{
 			"key": "快看影视[cat]",
-			"name": "🔍搜索源3",
+			"name": "🔍搜索源2",
 			"type": 3,
 			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/kkys_open.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1
+		},
+    {
+			"key": "南瓜影视[cat]",
+			"name": "🔍搜索源3",
+			"type": 3,
+			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/ng_open.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -449,20 +437,10 @@
 			"filterable": 1,
 			"changeable": 1
 		},
-		{
-            "key": "蘑菇",
-            "name": "🔍搜索源8",
-            "type": 3,
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-			"changeable": 1,
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/蘑菇.js"
-        },
+
 		{
 			"key": "爱看影视",
-			"name": "🔍搜索源9",
+			"name": "🔍搜索源8",
 			"type": 3,
 			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
 			"searchable": 1,
@@ -473,7 +451,7 @@
 		},
 		 {
 			"key": "农民影视",
-			"name": "🔍搜索源10",
+			"name": "🔍搜索源9",
 			"type": 3,
 			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
 			"searchable": 1,
@@ -484,7 +462,7 @@
 		},
 		{
 			"key": "LIBVIO",
-			"name": "🔍搜索源11",
+			"name": "🔍搜索源10",
 			"type": 3,
 			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
 			"searchable": 1,
@@ -493,17 +471,17 @@
 			"changeable": 1,
 			"ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/LIBVIO.js"
 		},
-        {
-			"key": "子子影视",
-			"name": "🔍搜索源12",
+    {
+			"key": "蘑菇",
+			"name": "🔍搜索源11",
 			"type": 3,
 			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"changeable": 1,
-			"ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/子子影视.js"
-        },
+			"ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/蘑菇.js"
+		},
 		{
 			"key":"csp_WoGG",
 			"name":"☁云搜1",
