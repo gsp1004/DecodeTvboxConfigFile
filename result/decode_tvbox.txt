@@ -1,5 +1,5 @@
 {
-    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;5b2f704da69aa9910a5246018d7baa6d",
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;b3a5a49c793dd82c3fd04e75d3071b20",
     "wallpaper": "https://agit.ai/cacifer/xyz/raw/branch/master/wallpaper.png",
 	"lives": [
         {
@@ -11,9 +11,9 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         }, 
         {
-            "name": "饭太硬直播源", 
+            "name": "影视轮播", 
             "type": 0, 
-            "url": "https://ghproxy.com/raw.githubusercontent.com/dxawi/0/main/tvlive.txt", 
+            "url": "https://agit.ai/cacifer/xyz/raw/branch/master/live/%e6%9d%82%e6%ba%90.txt", 
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}", 
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
@@ -33,133 +33,123 @@
             "key": "戏曲",
             "name": "🎪戏曲大全",
             "type": 3,
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/hao/raw/branch/master/戏曲大全.js"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/戏曲大全.js"
         },
         {
             "key": "相声小品",
             "name": "🎭相声小品",
             "type": 3,
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/hao/raw/branch/master/相声小品.js"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/相声小品.js"
         },
         {
             "key": "央视节目",
             "name": "🌏央视节目",
+            "api":"py_cctv",
             "type": 3,
-            "api": "csp_CCTV",
             "searchable": 0,
-            "quickSearch": 0,
+            "quickSearch": 1,
             "filterable": 1,
+            "changeable": 0,
             "style":{"type":"list"},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/cctv.json",
-            "jar":"https://agit.ai/cacifer/xyz/raw/branch/master/jar/ymz.jar;md5;66A1A17B669AD9201EEBF19EA05EC661"
+            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/央视片库.py"
         },
         {
             "key": "纪录片",
             "name": "📹纪录片",
             "type": 3,
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/hao/raw/branch/master/纪录片.js"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/纪录片.js"
         },
         {
             "key": "书法国画",
             "name": "✒️书法国画",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,          
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/书法国画.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/书法国画.js"
         },
         {
             "key": "园艺栽培",
             "name": "🌼园艺栽培",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,          
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/园艺栽培.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/园艺栽培.js"
         },
         {
             "key": "乐器",
             "name": "🎺吹拉弹唱",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,            
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/吹拉弹唱.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/吹拉弹唱.js"
         },
         {
             "key": "奇巧手工",
             "name": "✂️奇巧手工",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,         
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/奇巧手工.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/奇巧手工.js"
         },
         {
             "key": "自学教程",
             "name": "📋自学教程",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,           
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/自学教程.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/自学教程.js"
         },
         {
             "key": "舞蹈健身",
             "name": "💃舞蹈健身",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,            
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/舞蹈健身.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/舞蹈健身.js"
         },
         {
             "key": "棋牌",
             "name": "♟️棋牌合集",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,            
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/棋牌合集.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/棋牌合集.js"
         },
 		{
 			"key": "csp_XPath_企鹅体育",
@@ -170,80 +160,74 @@
 			"quickSearch": 0,
 			"filterable": 0,
 			"changeable": 0,
-      "style":{"type":"list","ratio":1.597},
+			"style":{"type":"list","ratio":1.597},
 			"ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/企鹅直播.json"
 		},
         {
             "key": "影音",
             "name": "🎶音乐鉴赏",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,            
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/音乐鉴赏.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/音乐鉴赏.js"
         },
         {
             "key": "影视解说",
             "name": "🎙影视解说",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,           
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
 		       	"changeable": 0,
              "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/影视解说.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/影视解说.js"
         },
         {
             "key": "食谱",
             "name": "🥙美食秘笈",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,            
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/美食秘笈.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/美食秘笈.js"
         },
         {
             "key": "健康生活",
             "name": "👩‍⚕️健康生活",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,            
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/健康生活.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/健康生活.js"
         },
         {
             "key": "安全防骗",
             "name": "👮‍安全防骗",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,           
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/安全防骗.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/安全防骗.js"
         },
         {
             "key": "心理健康",
             "name": "💞心理健康",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,           
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/心理健康.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/心理健康.js"
         },
         {
 			"key": "童趣生活",
@@ -254,66 +238,62 @@
 			"searchable": 0,
 			"quickSearch": 0,
 			"filterable": 1,
-      "style":{"type":"rect","ratio":1.597}
+      "changeable": 0,
+			"style":{"type":"rect","ratio":1.597}
 		},{
             "key": "小灯塔学堂",
             "name": "🏫小灯塔学堂",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,           
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/灯塔启蒙.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/小灯塔学堂.js"
         },
         {
             "key": "幼儿乐园",
             "name": "📚幼儿乐园",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,           
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/幼儿乐园.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/幼儿乐园.js"
         },
         {
             "key": "小学课堂",
             "name": "📚小学课堂",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,            
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/小学课堂.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/小学课堂.js"
         },
         {
             "key": "初中课堂",
             "name": "📚初中课堂",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,           
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/初中课堂.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/初中课堂.js"
         },
         {
             "key": "高中教育",
             "name": "📚高中课堂",
-            "type": 3,
-            "api": "csp_Bili",
+            "type": 3,            
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/高中课堂.json"
+            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/高中课堂.js"
         },
         {
 			"key": "JustLive",
@@ -324,9 +304,10 @@
 			"searchable": 0,
 			"quickSearch": 0,
 			"filterable": 1,
-      "style":{"type":"rect","ratio":1.597}
+			"changeable": 0,
+			"style":{"type":"rect","ratio":1.597}
 		},
-    {
+		{
             "key": "网易公版影像",
             "name": "📺网易公版影像",
             "type": 3,
@@ -346,20 +327,8 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"changeable": 0,
-      "style":{"type":"oval"}
+			"style":{"type":"oval"}
 		},
-    {
-            "key": "播客",
-            "name": "🎧播客聚合",
-            "type": 3,
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/播客.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-			      "changeable": 0,
-            "style":{"type":"list"}
-        },
 		{
             "key": "有声小说js",
             "name": "🎧有声小说",
@@ -407,20 +376,20 @@
 			"changeable": 1
         },
 		{
-            "key": "厂长资源",
-            "name": "🔍搜索源2",
-            "type": 3,
-            "api": "csp_Czsapp",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-			"changeable": 1
-        },
-		{
 			"key": "快看影视[cat]",
-			"name": "🔍搜索源3",
+			"name": "🔍搜索源2",
 			"type": 3,
 			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/kkys_open.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1
+		},
+    {
+			"key": "南瓜影视[cat]",
+			"name": "🔍搜索源3",
+			"type": 3,
+			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/ng_open.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -435,7 +404,7 @@
             "filterable": 1,
 			"changeable": 1,
 			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
-      "ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/大豆.js"
+			"ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/大豆.js"
 		},
 		{
 		   "key": "荐片",
@@ -444,11 +413,10 @@
 		   "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
 		   "searchable": 1,
 		   "quickSearch": 1,
-       "filterable":1,
-			"changeable": 1,
+		   "filterable":1,
+		   "changeable": 1,
 		   "ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/荐片.js"
 		},
-		
 		{
             "key": "爱看聚搜",
             "name": "🔍搜索源6",
@@ -469,31 +437,21 @@
 			"filterable": 1,
 			"changeable": 1
 		},
-		{
-            "key": "蘑菇",
-            "name": "🔍搜索源8",
-            "type": 3,
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-			"changeable": 1,
-            "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/蘑菇.js"
-        },
+
 		{
 			"key": "爱看影视",
-			"name": "🔍搜索源9",
+			"name": "🔍搜索源8",
 			"type": 3,
 			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"changeable": 1,
-      "ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/爱看.js"
+			"ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/爱看.js"
 		},
 		 {
 			"key": "农民影视",
-			"name": "🔍搜索源10",
+			"name": "🔍搜索源9",
 			"type": 3,
 			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
 			"searchable": 1,
@@ -504,6 +462,17 @@
 		},
 		{
 			"key": "LIBVIO",
+			"name": "🔍搜索源10",
+			"type": 3,
+			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/LIBVIO.js"
+		},
+    {
+			"key": "蘑菇",
 			"name": "🔍搜索源11",
 			"type": 3,
 			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
@@ -511,19 +480,8 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"changeable": 1,
-      "ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/LIBVIO.js"
+			"ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/蘑菇.js"
 		},
-    {
-      "key": "子子影视",
-      "name": "🔍搜索源12",
-      "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-			"changeable": 1,
-      "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/子子影视.js"
-    },
 		{
 			"key":"csp_WoGG",
 			"name":"☁云搜1",
@@ -616,6 +574,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
+			"changeable": 0,
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto"
         }
     ],

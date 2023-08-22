@@ -75,7 +75,7 @@ def main():
         os.remove(img_filename)
 
     # 2.2 提取**后面的base64加密内容
-    ret = re.findall(r"\*\*.*=", str(con))
+    ret = re.findall(r"\*\*.*", str(con))
     if ret:
         with open(decode_filename, "wb") as f_de:
             # 2.3 将其解密，存为txt
