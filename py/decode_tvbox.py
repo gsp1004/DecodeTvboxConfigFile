@@ -59,8 +59,8 @@ else:
     img_filename = str(datetime.date.today()) + '_o.bmp'
 
 decode_filename = "decode_tvbox.txt"
-url = 'https://gitee.com/haitang123/abc/raw/master/o.bmp'
-
+# url = 'https://gitee.com/haitang123/abc/raw/master/o.bmp'
+url = 'https://raw.gitmirror.com/HiTang123/abc/main/o.bmp'
 
 def main():
     # 1. 从url下载文件，存为img_filename
