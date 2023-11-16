@@ -471,17 +471,6 @@
 			"changeable": 1,
 			"ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/LIBVIO.js"
 		},
-    {
-			"key": "蘑菇",
-			"name": "🔍搜索源11",
-			"type": 3,
-			"api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"changeable": 1,
-			"ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/蘑菇.js"
-		},
 		{
 			"key":"csp_WoGG",
 			"name":"☁云搜1",
